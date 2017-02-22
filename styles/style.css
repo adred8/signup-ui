@@ -1,0 +1,118 @@
+/**{
+  outline: 1px solid green;
+}*/
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+  background-color:#404359;
+}
+.app{
+  /*max-height: 960px;
+  max-width: 540px;*/
+  height: 540px;
+  width: 780px;
+  margin: 5% auto;
+  background-color: white;
+  box-shadow: 3px 3px 20px #888888;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+.image-section{
+  width: 35%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 0px;
+}
+.main-section{
+  width: 65%;
+}
+.main-login-section, .footer-section{
+  padding-left:8%;
+  padding-right: 17%;
+}
+.header-section{
+  margin: 9% auto;
+}
+button{
+  position: relative;
+  margin: 2% auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #404040;
+  cursor: pointer;
+}
+
+.google:hover, .fb:hover, .twitter:hover{
+  box-shadow: 3px 3px 20px #888888;
+}
+.gplus-icon{
+  height: 32px;
+  width: 32px;
+}
+.fb-icon{
+  height: 32px;
+  width: 32px;
+}
+.twt-icon{
+  height: 32px;
+  width: 32px;
+}
+.login-text{
+  position: absolute;
+  top: 35%;
+  left: 27%;
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  text-shadow: 1px 1px 3px #d9d9d9;
+}
+.footer-section{
+  padding-top: 6%;
+}
+.footer-text, h4, h1, p{
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-size: 30px;
+  font-weight: 400;
+}
+h4{
+  color: #808080;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #d9d9d9;
+}
+p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #808080;
+}
+.footer-text{
+  font-size: 12px;
+  font-weight: 400;
+}
+a{
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
